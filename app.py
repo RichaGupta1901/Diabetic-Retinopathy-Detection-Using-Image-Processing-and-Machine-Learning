@@ -217,7 +217,7 @@ def classifying(ma_ratio,bv_length,bv_tortuosity,mean_intensity):
 def main():
     st.title("Diabetic Retinopathy Prediction")
 
-    selected_segment = st.sidebar.radio("Select a futher action", 
+    selected_segment = st.sidebar.radio("Select a further action", 
                                         ("Prediction and Segmentations", "About"))
     
     if selected_segment=="Prediction and Segmentations":
